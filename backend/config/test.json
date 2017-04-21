@@ -1,0 +1,23 @@
+{
+    "protocol": "http",
+    "url": "127.0.0.1",
+    "port": "9000",
+    "mongoDB": "mongodb://localhost:27017/menuDB_test",
+    "jwtSecret": "1234567890",
+    "facebook": {
+        "clientID": "646449518884730",
+        "clientSecret": "22050bd5bafbbc9b839f559c42e356ed",
+        "callbackURL": "http://localhost:9000/api/auth/facebook/callback",
+        "authorizationUrl": "https://www.facebook.com/dialog/oauth",
+        "tokenUrl": "https://graph.facebook.com/oauth/access_token",
+        "profileUrl": "https://graph.facebook.com/v2.5/me"
+    },
+    "google": {
+        "clientID": "313898674648-ll94kbqh8i7p1cd2co252beuhl61f534.apps.googleusercontent.com",
+        "clientSecret": "hF-smHI0lFh3B2OvmHpzdqvm",
+        "callbackURL": "http://localhost:9000/api/auth/google/callback",
+        "authorizationUrl": "https://accounts.google.com/o/oauth2/v2/auth",
+        "tokenUrl": "https://accounts.google.com/o/oauth2/token",
+        "profileUrl": "https://www.googleapis.com/oauth2/v1/userinfo"
+    }
+}
